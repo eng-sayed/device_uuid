@@ -2,10 +2,10 @@ import Flutter
 import UIKit
 import XYUUID
 
-public class SwiftDeviceUuidPlugin: NSObject, FlutterPlugin {
+public class DeviceUuidPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "device_uuid", binaryMessenger: registrar.messenger())
-        let instance = SwiftDeviceUuidPlugin()
+        let instance = DeviceUuidPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
     

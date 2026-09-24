@@ -34,11 +34,6 @@ let package = Package(
             dependencies: [
                 "XYUUID",
                 .product(name: "FlutterFramework", package: "FlutterFramework")
-            ],
-            path: "Sources/device_uuid",
-            publicHeadersPath: "include",
-            cSettings: [
-                .headerSearchPath("include/device_uuid")
             ]
         )
     ]
