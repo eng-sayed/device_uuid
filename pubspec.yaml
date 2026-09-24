@@ -1,11 +1,11 @@
 name: device_uuid
 description: A plugin to get the device's UUID. In Android, the UUID is ANDROID_ID encrypted using SHA-1. In iOS, the UUID is a hash string saved in Keychain.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/thoson-it
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.5.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.16.0"
 
 dependencies:
   flutter:
